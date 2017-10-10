@@ -1,0 +1,10 @@
+{
+  "global" : {
+    "aGlobalValue" : "that globalValue"
+  },
+  "pages" : {
+    "toto" : {
+      "title" : "yoyoyFrom Data"
+    }
+  }
+}

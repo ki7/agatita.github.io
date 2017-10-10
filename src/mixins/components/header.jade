@@ -1,0 +1,54 @@
+mixin Header()  
+  .top
+    nav#main-menu(role='navigation')
+      .menu-menu-container
+        hgroup
+          span#menu-item-0.menu-item.flag
+            a(title='Visit english version', href='/en.html')
+              img(src='/images/anglais.png')
+          |           
+          h1#site-title Agathe L&apos;Hermet
+          |           
+          h2#site-description Chef de projet digital
+        |         
+        ul.menu(id='menu-menu fr')
+          li#menu-item-1.menu-item.linkedin
+            a(title='Me contacter via Github', href='https://github.com/agatita')
+              i.fa.fa-github
+          |               
+          |               
+          li#menu-item-2.menu-item.email
+            a(title='Me contacter par e-mail', href='mailto:agathe.lhermet@gmail.com')
+              i.fa.fa-envelope
+              p agathe.lhermet@gmail.com
+          |               
+          |               
+          li#menu-item-3.menu-item.phone
+            a(title='Me contacter par téléphone', href='tel:+15875965682')
+              i.fa.fa-phone
+              p +1 587-596-5682
+          |               
+          li#menu-item-4.menu-item.linkedin
+            a(title='Visiter mon profil Linkedin', href='https://fr.linkedin.com/in/agathelhermet')
+              i.fa.fa-linkedin
+          |               
+          li#menu-item-5.menu-item.pdf
+            a(title='Télécharger mon CV PDF', href='/data/agathe-lhermet-resume.pdf', download='agathe-lhermet-resume.pdf')
+              i.fa.fa-download
+        |         
+        ul#menu-ancre
+          li
+            a(href='#target-skill') Comp&eacute;tences
+          |               
+          li
+            a(href='#target-degree') Dipl&ocirc;mes
+          |               
+          li
+            a(href='#target-job') Exp&eacute;riences
+          |               
+          li
+            a(href='#target-hobbies') Loisirs
+    // #access
+    header#showcase(role='banner')
+    // #branding
+    // <div class="msg">Je suis à l'écoute du marché pour des opportunités à Edmonton, AB (CANADA)</strong>.

@@ -1,0 +1,123 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Freelance spécialisée en webmarketing et gestion de projets web et mobile : création, refonte de site, UX')
+    link(rel='apple-touch-icon', sizes='57x57', href='/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='/apple-touch-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='/apple-touch-icon-180x180.png')
+    link(rel='icon', type='image/png', href='/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/android-chrome-192x192.png', sizes='192x192')
+    link(rel='icon', type='image/png', href='/favicon-96x96.png', sizes='96x96')
+    link(rel='icon', type='image/png', href='/favicon-16x16.png', sizes='16x16')
+    link(rel='manifest', href='/manifest.json')
+    link(rel='mask-icon', href='/safari-pinned-tab.svg', color='#5bbad5')
+    meta(name='msapplication-TileColor', content='#da532c')
+    meta(name='msapplication-TileImage', content='/mstile-144x144.png')
+    meta(name='theme-color', content='#ffffff')
+    link(rel='stylesheet', href='style.css')
+    link(rel='stylesheet', href='style-ext.css')
+    title Chef de projet Digital Freelance - Agathe L&apos;Hermet
+  
+  body.gatita-layout
+    | @@include(&apos;src/includes/header.html&apos;)
+    .gatita-grid
+      .entry-content.gatita-grid
+        p.gatita-intro
+          strong Chef de projet digital confirm&eacute;e
+          | , je vous accompagne sur vos projets webmarketing tels que la 
+          strong cr&eacute;ation ou la refonte de site
+          | , l&apos;optimisation de votre trafic (webmarketing), optimisation de 
+          strong l&apos;exp&eacute;rience utilisateur
+          | , optimisation de la conversion etc...
+        .col.no-shadow
+          | @@include(&apos;src/includes/competences.html&apos;)
+        #target-job.section.purple.col
+          span.big-title.purple
+            i.fa.fa-suitcase
+            | &#x9;             
+            h1#chef-de-projet-digital Exp&eacute;riences
+          | &#x9;  &#x9;&#x9;&#x9;&#x9;  
+          .xp
+            | @@include(&apos;src/includes/freelance.html&apos;)
+          | &#x9;            
+          .xp
+            | @@include(&apos;src/includes/ingdirect.html&apos;)
+          | &#x9;            
+          .xp
+            | @@include(&apos;src/includes/cellfish-cdi.html&apos;)
+          | &#x9;            
+          .xp
+            | @@include(&apos;src/includes/dailymotion.html&apos;)
+          | &#x9;            
+          .xp
+            | @@include(&apos;src/includes/cellfish-stage.html&apos;)
+          | &#x9;            
+          .xp.no-shadow
+            | @@include(&apos;src/includes/brady.html&apos;)
+        |             
+        #target-hobbies.section.col.red.no-shadow
+          span.big-title.red
+            i.fa.fa-gamepad
+            h1 Loisirs
+          |                 
+          .col-10(data-sr='over 2s')
+            h2 Chant
+            |                   
+            p Je suis actuellement chanteuse dans un groupe
+            |                   
+            img(src='images/chant.gif')
+          |                 
+          .col-10(data-sr='over 3s')
+            h2 Ukul&eacute;l&eacute;
+            |                   
+            p Et j&apos;essaye m&ecirc;me de jouer du Ukul&eacute;l&eacute;
+            |                   
+            img(src='images/ukulele.jpg')
+          |                 
+          .col-10(data-sr='over 4s')
+            h2 Voyages
+            |                   
+            p C&apos;est original, j&apos;aime voyager
+            |                   
+            img(src='images/voyage.jpg')
+          |                 
+          .col-10(data-sr='over 5s')
+            h2 Sport
+            |                   
+            p La danse, la course, le tennis, c&apos;est tr&egrave;s important
+            |                   
+            img(src='images/tennis.gif', data-sr='over 4s')
+      // #entry-content gatita-grid"
+    // #gatita-grid
+    footer#footer.col
+      p
+        img(src='images/logo-V2.png')
+        | This website was made by 
+        strong
+          a(href='https://github.com/agatita/') agatita
+          
+    script(src='/js/page.js')
+    // Google Tag Manager
+    noscript
+      iframe(
+        src='//www.googletagmanager.com/ns.html?id=GTM-NPTL5T',
+        height='0',
+        width='0',
+        style='display:none;visibility:hidden'
+      )
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NPTL5T');
+    // End Google Tag Manager

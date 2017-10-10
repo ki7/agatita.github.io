@@ -1,0 +1,5 @@
+mixin Hobbie(title, text, image, anim)
+  .col-10(data-sr='over #{anim[0]}')
+    h2= title
+    p= text
+    img(src='images/#{image}', data-sr='over #{anim[1]}')  

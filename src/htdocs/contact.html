@@ -1,0 +1,30 @@
+@@include('src/includes/head.html')
+<meta name="description" content="Contact and estimate, freelance web designer, web marketer. Edmonton, AB, Canada">
+<title>Contact digital marketer, web designer - Agathe L'Hermet</title>
+@@include('src/includes/header.html')
+        <ul id="menu-ancre">
+              <li><a id="onglet-skill" href="/index.html#target-skill">Skills</a></li>
+              <li><a id="onglet-job" href="/index.html#target-freelance">Portfolio</a></li>
+              <li><a id="onglet-degree" href="/index.html#target-degree">Education</a></li>
+              <li><a id="onglet-hobbies" href="/index.html#target-hobbies">Hobbies</a></li>
+        </ul>
+      </div>
+    </nav><!-- #access -->
+    </div>
+    </div>
+	 <div class="gatita-grid">
+			 <div id="formulaire" class="entry-content gatita-grid">
+        <!-- www.123contactform.com script begins here -->
+        <form id="myForm" autocomplete="on" action="php/mailer.php">
+            <div id="form-messages"></div>
+            <input type="text" name="name" id="name" placeholder="Name" style="float: left;">
+            <input type="email" name="email" id="email" placeholder="E-mail" style="float: right;">
+            <input type="url" name="website" id="website" placeholder="Website" style="float: left;" >
+            <input type="file" name="img" id="img" multiple style="float: right;">
+            <input type="text" name="message" id="message" style="height:100px; width: 100%;" placeholder="Your Message">
+            <input type="submit" value="Send" style="float: right;">
+        </form>
+      </div><!-- #entry-content gatita-grid" -->
+    <a href="#top" id="fleche-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div><!-- #gatita-grid -->
+@@include('src/includes/footer.html')

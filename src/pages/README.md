@@ -1,0 +1,6 @@
+J'ai bien compris que les branches ça te fais chier. donc...
+
+Pour que tu puisse jouer avec, un template, de vrai include des mixins dynamiques etc...
+si ça te plait on peut mutualiser le contenu Anglias/francais au même endroi
+
+Question, Des exemples plus précis, des trucs qui te fais chier, demande explicite de ne plus toucher à ce repo et te laisser trankil, c'est ici !!

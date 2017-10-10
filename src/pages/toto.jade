@@ -1,0 +1,65 @@
+extend ../layout/main
+
+block main
+
+  p.gatita-intro
+    strong Chef de projet digital confirm&eacute;e
+    | , je vous accompagne sur vos projets webmarketing tels que la 
+    strong cr&eacute;ation ou la refonte de site
+    | , l&apos;optimisation de votre trafic (webmarketing), optimisation de 
+    strong l&apos;exp&eacute;rience utilisateur
+    | , optimisation de la conversion etc...
+
+  h2 Rien de tou ça n'est déployer en production
+  p Donc petite démo de jade, je te laisse jouer avec
+  
+
+  p!= page
+  #title!= title
+  
+  a(href=uri('images/bourse3.jpg', page)) un lien relatif, on siat jamais si tu as un sous dossier un jour
+
+  br
+  br
+  br
+  br
+  
+  
+  
+  #target-hobbies.section.col.red.no-shadow
+    span.big-title.red
+      i.fa.fa-gamepad
+      h1 Loisirs           
+    
+    // Jai pas décliner mais tu te souviens?
+    // ça à l'air relou mais 
+    // tu maintiens la structure au même endroit une fois
+    // c'est le markdown qui faisait chier
+    // LA tu fais ce que tu veux, ta mixin est une fonction avec des param, 
+    //- tu fais du js quoi 
+    
+    +Hobbie(
+      'Chant',
+      'Je suis actuellement chanteuse dans un groupe',
+      'chant.gif',
+      ['2s']
+    )
+    
+    .col-10(data-sr='over 3s')
+      h2 Ukul&eacute;l&eacute;
+             
+      p Et j&apos;essaye m&ecirc;me de jouer du Ukul&eacute;l&eacute;
+             
+      img(src='images/ukulele.jpg')           
+    .col-10(data-sr='over 4s')
+      h2 Voyages
+             
+      p C&apos;est original, j&apos;aime voyager
+             
+      img(src='images/voyage.jpg')           
+    .col-10(data-sr='over 5s')
+      h2 Sport
+             
+      p La danse, la course, le tennis, c&apos;est tr&egrave;s important
+             
+      img(src='images/tennis.gif', data-sr='over 4s')
